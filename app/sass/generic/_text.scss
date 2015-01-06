@@ -1,3 +1,22 @@
+.hero-text{
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 20vw;
+	color: white;
+	text-align: left;
+	&:before{
+			content: "";
+			background: url('../../app/assets/img/hero-text-icon.png') no-repeat;
+			height: 1em;
+			width: 1em;
+			left: -2em;
+			display: block; 
+			position: absolute;
+		}
+}
+
 .main-text{
 		display: inline-block;
 		width: 60vw;
