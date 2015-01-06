@@ -24,7 +24,7 @@ $(document).ready(function(){
       });
     }
   })
-  if($(window).width() <=1024){
+  /* if($(window).width() <=1024){
     $( ".nav-bar").fadeOut( 0, function() {});
     $( ".nav-burger").fadeIn( 0, function() {});
   }else{
@@ -43,7 +43,7 @@ $(document).ready(function(){
         }
       }
     });
-  }
+  } */
   
 });
 
@@ -92,7 +92,7 @@ function showUI(){
   $( ".red-block" ).fadeIn( "slow", function() {
       // Animation complete.
     });
-}
+}   
 
 function menuOpen(){
   $( ".closed").fadeOut("slow", function(){});
