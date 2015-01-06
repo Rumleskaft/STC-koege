@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>STC Køge</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="dist/js/STC.min.js"></script>
+	<link rel="stylesheet" href="/dist/css/main.css">
+	<!-- instantiate flex slider -->
+		<script type="text/javascript" charset="utf-8">
+  			$(window).load(function() {
+		    	$('.flexslider').flexslider({
+		    		video: true
+		    	});
+		  	});
+		</script>
+</head>
+	<body>
+        <main>
+	        <header class="navigation">
+	        	<div class="nav-container">
+	                <div class="logo">
+	                	<a href="#landing"> <img src="/app/assets/img/stc-logo.png"> </a>
+	                </div>
+	                <div class="nav-bar">
+	                    <ul class="nav">
+	                        <li><a href="#landing">Forside</a></li>
+	                        <li><a href="#first-block">Gode Grunde</a></li>
+	                        <li><a href="#second-block">Om STC</a></li>
+	                        <li><a href="#third-block">Kontakt</a></li>
+	                        <li><a href="#fourth-block">Find os</a></li>
+	                    </ul>
+	                </div>
+	                <div class="closed nav-burger" onclick="menuToggle()"></div>
+	                <div class="mobile-nav-bar">
+	               		<div class="open nav-burger" onclick="menuToggle()"></div>
+	                    <ul class="nav">
+		                    <li><a href="#landing">Forside</a></li>
+		                    <li><a href="#first-block">Gode Grunde</a></li>
+		                    <li><a href="#second-block">Om STC</a></li>
+		                    <li><a href="#third-block">Kontakt</a></li>
+		                    <li><a href="#fourth-block">Find os</a></li>
+		                </ul>
+	                </div>
+	            </div>
+	        </header>
+        	<section class="landing-page" id="landing">
+        		<article class="flexslider">
+				  	<ul class="slides">
+				  		<li>
+				  			<video id="landing-vid" preload="auto" onclick="vidplay()">
+					  			<source src="app/assets/video/preview.mp4" type="video/mp4">
+					  			<source src="app/assets/video/preview.ogg" type="video/ogg">
+					  			<source src="app/assets/video/preview.webm" type="video/webm">
+				  			</video>
+				  			<div id="control-wrapper" class="slide-header">
+				  				<div id="vid-control">
+                                <span>Der er gode grunde til</span>
+                                <button class="play btn" id="play" onclick="vidplay()"></button>
+                                <button style="display: none" class="pause btn" id="play" onclick="vidplay()"></button>
+                                <span>at fremtiden ligger i Køge</span>
+                                </div>
+                            </div>
+				  		</li>
+				    	<li>
+				      		<img src="/app/assets/img/flere-spor.jpg" />
+				      		<article class="slide-header">
+                                <h1>Flere spor</h1>
+                            </article>
+                            
+				    	</li>
+				    	<li>
+				      		<img src="/app/assets/img/koege-havn.jpg" />
+				      		<article class="slide-header">
+                                <h1>Køge havn</h1>
+                            </article>
+				    	</li>
+				    	<li>
+				      		<img src="/app/assets/img/koege-north.jpg" />
+				      		<article class="slide-header">
+                                <h1>Køge nord</h1>
+                            </article>
+				    	</li>
+				    	<li>
+				      		<img src="/app/assets/img/femern-belt.jpg" />
+				      		<article class="slide-header">
+                                <h1>Fermern Bælt</h1>
+                            </article>
+				    	</li>
+				  	</ul>
+				</article>
+
+				<article class="red-block">
+					<img src="/app/assets/img/red-binder-block.png" />
+				</article>
+			</section>
+			<section class="first-block" id="first-block">
+				<article class="main-text">
+					<h2>Gode grunde</h2>
+					<p>Der er mange gode grunde til at fremtiden ligger i Køge. <br> 
+						Men en af de bedste er vores placering - for den er helt unik. <br> 
+						Skandinavisk Transport Center er placeret hvor motorvejene
+						E20, E47 og E55 mødes - tæt på både København og Malmø. <br> 
+						Og i fremtiden bliver vores placering kun endnu bedre:
+						Motorvejene udvides, havnen vokser og Femern Bælt-forbindelsen
+						giver direkte adgang til Tyskland. <br> 
+						Det er blandt andet derfor vi siger, 
+						at der er gode grunde til, at fremtiden ligger i Køge.
+					</p>
+					<ul class="burger-list">
+						<li>
+							Bygningshøjde på 30 meter
+						</li>
+						<li>
+							Bebyggelsesprocent på 50%
+						</li>
+						<li>
+							Ingen dækningsafgift eller volumenbegræsning
+						</li>
+					</ul>
+					<a href="/app/assets/img/stc-logo.png" download>
+					  Download fakta-ark
+					</a>
+				</article>
+				
+			</section>
+			<section class="second-block" id="second-block">
+				<aside class="img-block">
+						<img src="/app/assets/img/om-stc.png">
+				</aside>
+				<article class="main-text">
+					<h2>Skandinavisk transport center</h2>
+
+					<p>Skandinavisk Transport Center i Køge er et af Danmarks største 
+					sammenhængende erhvers- og transportområder. Transportcenteret er i de seneste år vokset 
+					fra 130 ha (1.300.000 m2) til 180 ha (1.800.000 m2), og hvis det bliver aktualt, har vi
+					mulighed for at udvide yderligere. Kombinationen af motorvej, jernbane, havn og optimale
+					faciliteter har skabt et dynamisk transportcenter med mange store virksomheder som fx. Netto,
+					Lidl, og Lemvig-Müller. <br><br>
+					Vi er i dag et af Danmarks største transportcentre - og i fremtiden bliver vi endnu større.
+					Vi udvider og tilbyder erhvervsgrunde fra 20.000 m2 til alle typer af virksomheder, der har behov for åbne vidder og højt til loftet.
+					</p>
+					<a href="/app/assets/img/stc-logo.png" download>
+					  Download fakta-ark
+					</a>
+				</article>
+				
+			</section>
+			<section class="third-block" id="third-block">
+				<article class="col-1-1 main-text">
+					<h2>Kontakt</h2>
+					<p>Placér din virksomhed i fremtidens logistikklynge - kontakt os allerede i dag.
+					</p>
+				</article>
+				<article class="col-1-1 main-text">
+					<aside class="col-1-2">
+						<h3>Personlig kontakt</h3>
+						<ul class="red contact-info">
+							<li>
+								Thomas Elm Kampmann
+							</li>
+							<li>
+								M: +45 28 13 83 23
+							</li>
+							<li>
+								E: tek@stc-koege.dk
+							</li>
+						</ul>
+						<ul class="contact-info">
+							<li>
+								T: +45 56 63 62 60
+							</li>
+							<li>
+								F: +45 56 63 74 00
+							</li>
+							<li>
+								Baltic Kaj 1 DK-4600 Køge
+							</li>
+						</ul>
+						<img src="/app/assets/img/contact-headshot.png">
+					</aside>
+					<aside class="col-1-2">
+						<h3>Bliv kontaktet</h3>
+						<form action="">
+						<div class="input-wrapper">
+							<div class="input-title"> Navn: </div>
+							<input type="text" name="name" autocomplete="off" autocapitalize="off" autocorrect="off">
+						</div>
+						<div class="input-wrapper">
+							<div class="input-title"> Email: </div>
+							<input type="email" name="mail" autocomplete="off" autocapitalize="off" autocorrect="off">
+						</div>
+						<div class="input-wrapper">
+							<div class="input-title"> Tel: </div>
+							<input type="text" name="tel" autocomplete="off" autocapitalize="off" autocorrect="off">
+						</div>
+						<div class="input-wrapper textfield">
+							<div class="input-title"> Besked: </div>
+							<textarea name="message" cols="auto" rows=""></textarea>
+						</div>
+						</form>
+					</aside>
+				</article>
+				<img src="/app/assets/img/slider-control-background.png" class="red-triangle">
+			</section>
+			<section class="fourth-block" id="fourth-block">
+				<article class="main-text">
+					<h1>Kort</h1>
+				</article>
+			</section>
+        </main>
+		<footer>
+		</footer>
+	</body>
+</html>

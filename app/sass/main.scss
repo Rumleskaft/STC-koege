@@ -1,0 +1,12 @@
+@import "base/base";
+
+@import "generic/generic";
+
+@import "objects/objects";
+
+@import "variables/vars";
+ 
+ *{
+    box-sizing: border-box;
+    display: block;
+ }

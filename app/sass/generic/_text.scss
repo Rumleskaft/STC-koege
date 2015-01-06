@@ -1,0 +1,95 @@
+.main-text{
+		display: inline-block;
+		width: 60vw;
+		top:0;
+		bottom:0;
+		margin: 0;
+		line-height: 2em;
+		padding: 2% 0 0 8%;
+		&:first-child{
+			padding: 4% 0 0 8%;
+		}
+	h2 {
+		margin-top: 0;
+		color: #8F0506;
+	}
+	ul{
+		padding: 0;
+	}
+	.burger-list li{
+		color: #810F19;
+		margin: 0;
+		padding-bottom: 10px;
+		&:before{
+			content: "";
+			background: url('../../app/assets/img/burger-bullet.png') no-repeat;
+			height: 1em;
+			width: 1em;
+			top: 0.25em;
+			display: inline-block;
+			position: relative;
+		}
+	}
+	a{
+		display: inline-block;
+		color: #810F19;
+		border: 1px solid #810F19;
+		padding: 5px 10px; 
+		text-decoration: none;
+	}
+	img{
+		height: auto;
+		width: auto;
+		display: inline-block;
+	}
+
+	aside{
+		padding-top: 0 !important;
+		position: relative;
+		top:0;
+		left: 0;
+		float: left;
+		margin:0;
+		display: inline-block;
+		h3{
+			color: #808080;
+		}
+		ul{	
+			line-height: 2em;
+			list-style-type: none;
+			&.red{
+				color: #92020C;
+			}
+		}
+		img{
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			right: 15%;
+		}
+	}
+}
+.second-block{
+	.main-text { 
+		line-height: 3em;
+		padding: 2% 8% 0 0;
+		h2, a, p{
+			// overwriting other css
+			color: white;
+			border-color: white;
+		}
+	}
+}
+
+.fourth-block{
+	.main-text{
+		padding: 30px 50px;
+		h1{
+			font-weight: lighter;
+			color: white;
+			font-size: 2em;
+			text-transform: uppercase;
+		}
+	}
+}

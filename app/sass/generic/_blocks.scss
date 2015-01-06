@@ -1,0 +1,42 @@
+.red-triangle{
+	position: absolute;
+	height: 15%;
+	bottom:0;
+	right: 0;
+}
+
+.reverse{
+	left: 0;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.red-block{
+	position: relative;
+	display: inline;
+	width: 39vw;
+	margin-left: 7px;
+	height: 50vh;
+	top: 0;
+	img{
+		top: -75px;
+		left: 82vw; 
+		width: 18%;
+		position: relative;
+		z-index: 2;
+	}
+}
+
+.img-block{
+	width: 30vw;
+	height: 80vh;
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	float: left;
+	left: -10vw;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "STC",
+  "version": "0.1.0",
+  "description": "STC",
+  "keywords": [
+    "STC",
+    "Umwelt"
+  ],
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^0.17.0",
+    "load-grunt-tasks": "^1.0.0"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.10.4",
+    "body-parser": "^1.9.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umweltdk/pfa-styleguide-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umweltdk/pfa-styleguide-frontend/issues"
+  },
+  "homepage": "https://github.com/umweltdk/pfa-styleguide-frontend"
+}

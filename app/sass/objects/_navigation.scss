@@ -1,0 +1,98 @@
+.navigation{
+	width: 100%;
+}
+.nav-container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	font-size: 14px;
+}
+
+.logo{
+	float: left;
+	width: 13%;
+	min-width: 150px;
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.nav-bar{
+	width: 40%;
+	right: 0;
+	background-color: #8F0505;
+	position: absolute;
+	ul{
+		text-align: center;
+	}
+	li, a{
+		cursor: pointer;
+		display: inline;
+		list-style-type: none;
+		padding-right: 10px;
+		color: white;
+		text-decoration: none;
+	}
+	&:before{
+		position: absolute;
+		content: "";
+		width: 0;
+		height: 0;
+		border-bottom: 45px solid transparent;
+		border-right: 45px solid #8F0505;
+		left: -45px
+	}
+}
+
+
+.nav-burger{
+	width: 5%;
+	right: 0;
+	position: fixed;
+	display: none;
+	&:after{
+			content: "";
+			background: url('../../app/assets/img/burger-menu.png') no-repeat;
+			height: 50px;
+			width: 50px;
+			top: 0.25em;
+			float: right;
+			display: inline-block;
+			position: relative;
+			cursor: pointer;
+		}
+}
+.open{
+	right: 35.5vw;
+}
+
+.mobile-nav-bar{
+	width: 40%;
+	right: 0;
+	position: fixed;
+	background-color: #8F0505;
+	ul{
+		text-align: center;
+	}
+	li, a{
+		cursor: pointer;
+		display: inline;
+		list-style-type: none;
+		padding-right: 10px;
+		color: white;
+		text-decoration: none;
+	}
+	&:before{
+		position: absolute;
+		content: "";
+		width: 0;
+		height: 0;
+		border-bottom: 45px solid transparent;
+		border-right: 45px solid #8F0505;
+		left: -45px
+	}
+
+}
