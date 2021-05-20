@@ -8,7 +8,7 @@ To build project:
 ("sudo" if you are using mac)
 
 - run "grunt" 
-for at kompile projektet
+to compile
 
 For development purposes
 	
